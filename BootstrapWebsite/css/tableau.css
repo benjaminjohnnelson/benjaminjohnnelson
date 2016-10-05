@@ -1,0 +1,32 @@
+#table1{border: 1px black solid; 
+        position: fixed;
+        top: 18%;
+        right:20%
+    
+}
+#table2{border: 1px black solid; 
+        position: fixed;
+        top: 200px;
+        left: 340px
+    
+}
+#table3{border: 1px black solid; 
+        position: fixed;
+        top: 475px;
+        left: 300px
+    
+}
+#table4{border: 1px black solid; 
+        position: fixed;
+        top: 300px;
+        right: 25%
+    
+}
+    #skillsheader {text-align: center;      color: white; font-family: '    Open Sans','Helvetica              Neue',Helvetica,Arial,sans-        serif;
+    }
+    #skillsfooter {position: absolute;     bottom:0;
+        right:550px;
+        width: 325px;
+        height:150px 
+    
+}

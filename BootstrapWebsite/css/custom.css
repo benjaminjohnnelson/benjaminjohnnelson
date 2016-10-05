@@ -1,0 +1,147 @@
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CDA34F;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: #E9E7DA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.topnav_alignRight li a {
+    display: block;
+    color: #E9E7DA;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #636B46;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+
+.paddingNav {
+    padding-left: 180px
+}
+.main{
+    position: relative;
+}
+
+.main img{
+
+    width: 100%;
+    
+
+}
+.small-img
+{
+    width: 60%;position: absolute;
+    
+}
+
+.main h4{
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    margin: auto;
+    font-size: 10pt;
+    text-align: center;
+    color: #49412c;
+    font-family:'Raleway', sans-serif ;
+}
+
+.main h1{
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    font-size: 60pt;
+    text-align: center;
+    color: ghostwhite;
+    font-family: 'Raleway', sans-serif ;
+}
+
+.main
+{
+    font-family: ;
+}
+.glyphicon.glyphicon-tree-deciduous {
+    position: static;
+    font-size: 175px;
+    
+}
+.glyphicon.glyphicon-education {
+    position: static;
+    font-size: 175px;
+    
+}
+.glyphicon.glyphicon-earphone {
+    position: static;
+    font-size: 175px;
+    
+}
+.middle{
+    align-content: center
+}
+.box {
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,
+.box:hover {
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+#fontit{
+    font-size: 30pt;
+    color: black;
+    font-family: 'Raleway', sans-serif
+}
+footer {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: lightgray;
+    border-style: solid;
+    border-color: dimgrey;
+        
+}
